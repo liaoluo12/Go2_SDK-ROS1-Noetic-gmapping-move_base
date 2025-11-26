@@ -3,7 +3,7 @@
     <!--添加的-->
     <param name="base_local_planner" value="teb_local_planner/TebLocalPlannerROS" />
     
-    <rosparam file="$(find unitree_move_base)/config/costmap_common_params.yaml" command="load" ns="global_costmap" /
+    <rosparam file="$(find unitree_move_base)/config/costmap_common_params.yaml" command="load" ns="global_costmap" />
     <rosparam file="$(find unitree_move_base)/config/costmap_common_params.yaml" command="load" ns="local_costmap" />
     <rosparam file="$(find unitree_move_base)/config/local_costmap_params.yaml" command="load" />
     <rosparam file="$(find unitree_move_base)/config/global_costmap_params.yaml" command="load" />
