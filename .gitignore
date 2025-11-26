@@ -1,8 +1,30 @@
+# ROS生成文件
 build/
 devel/
 install/
-*.pyc
-__pycache__/
+*.catkin
+.catkin_tools/
+
+# 编译文件
+*.o
+*.a
 *.so
+*.la
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 日志和临时文件
 *.log
+*.cache
+*.tmp
+*.swp
 .DS_Store
+
+# IDE文件
+.vscode/
+.idea/
+*.project
+*.cproject
